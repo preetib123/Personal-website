@@ -185,7 +185,7 @@ h5.tittle {
 .side-bar .personal-info li span {
 	width: 50%;
 	float: left;
-	text-transform: uppercase;
+	
 	font-weight: bold;
 }
 .side-bar .personal-info li p {
@@ -1509,7 +1509,7 @@ h5.tittle {
 }
 .isop-filter li {
 	float: left;
-	width: 14.2857143%;
+	width: 11%;
 	text-align: center;
 }
 .isop-filter li a i {
@@ -3779,10 +3779,10 @@ nav .collapse.navbar-collapse .moticv-menu-icon #cd-menu-trigger {
 }
 
 
-.isop-filter li:last-child {
+/* .isop-filter li:last-child {
   position: absolute;
   right: 0;
-}
+} */
 
 
 .resume {
@@ -3794,3 +3794,32 @@ nav .collapse.navbar-collapse .moticv-menu-icon #cd-menu-trigger {
     padding: 60px 0 !important;
   }
 }
+ 
+
+
+/* Gurmatpal Custom css */
+.exp-li li{padding: 10px 0;
+    font-weight: bold;}
+.exp-li li span{padding-right: 10px;}
+.gc-custom-tabs{
+}
+.gc-custom-tabs>li{
+margin:0;}
+.nav-tabs>li>a{
+    border: 0;
+    border-radius: 0;
+background: #333;
+color: #fff;
+}
+
+.gc-custom-tabs>li.active>a, .gc-custom-tabs>li.active>a:focus, .gc-custom-tabs>li.active>a:hover , .gc-custom-tabs>li>a:hover {
+    
+   border:0;
+border-radius:0;
+background: #346abb;
+    color: #fff;
+}
+@media(max-width:1450px){
+.isop-filter li {
+    width: 20%;
+}}
