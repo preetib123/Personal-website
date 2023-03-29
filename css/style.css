@@ -3798,8 +3798,11 @@ nav .collapse.navbar-collapse .moticv-menu-icon #cd-menu-trigger {
 
 
 /* Gurmatpal Custom css */
-.exp-li li{padding: 10px 0;
-    font-weight: bold;}
+.exp-li li{padding: 5px 0;
+    font-weight: bold;
+    text-indent: -12px;
+    padding-left: 26px;
+    line-height: 25px;}
 .exp-li li span{padding-right: 10px;}
 .gc-custom-tabs{
 }
